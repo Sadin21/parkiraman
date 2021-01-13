@@ -1,0 +1,159 @@
+.auth {
+    background-color:white; 
+    height: 650px;
+}
+.auth .cont {
+    background-color: white; 
+    height: 100%;
+}
+.auth .cont .jumbo {
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+}
+.auth .cont .jumbo input:focus {
+    outline: none;
+}
+
+.auth .cont .jumbo button:focus {
+    outline: none;
+}
+.auth .cont .jumbo .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.auth .cont .jumbo .left .head {
+    width: 100%;
+}
+.auth .cont .jumbo .left .head img{
+    width: 200px;
+}
+.auth .cont .jumbo .left .content-signin1 {
+    padding-top: 20px;
+    text-align: center;
+}
+.auth .cont .jumbo .left .content-signin1 h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.auth .cont .jumbo .left .content-signin1 h3 span {
+    color: orange;
+}
+.auth .cont .jumbo .left .content-signin1 .medsos {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.auth .cont .jumbo .left .content-signin1 .medsos .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth .cont .jumbo .left .content-signin1 .medsos .circle .fa-facebook-f {
+    font-size: 24px;
+    color: orange;
+}
+.auth .cont .jumbo .left .content-signin1 .medsos .circle .fa-google {
+    font-size: 24px;
+    color: orange;
+}
+.auth .cont .jumbo .left .content-signin1 p {
+    margin-bottom: 20px;
+}
+.auth .cont .jumbo .left .content-signin1 form{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth .cont .jumbo .left .content-signin1 form a {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.auth .cont .jumbo .left .content-signin1 form a:hover {
+    color: orange;
+}
+.auth .cont .jumbo .left .content-signin1 form button {
+    padding: 7px 15px 7px 15px;
+    width: 200px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    color: orange;
+    
+}
+.auth .cont .jumbo .left .content-signin1 form button:hover {
+    background-color: orange;
+    border: 1px solid orange;
+    transition: 300ms;
+    color: white;
+}
+.auth .cont .jumbo .right {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth .cont .jumbo .right .content-signup1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth .cont .jumbo .right .content-signup1 h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.auth .cont .jumbo .right .content-signup1 p {
+    margin-bottom: 30px;
+}
+.auth .cont .jumbo .right .content-signup1 button {
+    padding: 7px 15px 7px 15px;
+    width: 200px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.auth .cont .jumbo .right .content-signup1 button:hover {
+    color: orange;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

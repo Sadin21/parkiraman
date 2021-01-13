@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+.nav-item{
+    font-family: 'Exo 2', sans-serif;
+}
+.nav-item a:hover{
+    color: orange !important;
+}
+
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+.icon-bar{
+    background: darkorange;
+}
+li a{
+    color: #333 ;
+}
+.jumbotron{
+    background-image: url();
+}
+.big-text{
+    font-size: 52px;
+    margin: 28px 0;
+    color: darkorange;
+    font-weight: bold;
+}
+a.btn{
+    margin: 38px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+a.btn-first{
+    background-color: darkorange;
+    color: #fff;
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid darkorange;
+    color: #333;
+}
+a.btn:hover{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.bnner-info, .banner-image{
+    margin: 30px 0;
+}
+section{
+    margin-bottom: 8em;
+}
+.text-end p{
+    font-family: 'Exo 2', sans-serif;
+}
+#tutorial ul{
+    list-style: none;
+}
+#tutorial ul li::before{
+    content: "o";
+    color: darkorange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.card-content{
+    margin-top: 3em;
+}
+.card-content p{
+    font-family: 'Exo 2', sans-serif;
+}
+.col-6 p{
+    font-family: 'Exo 2', sans-serif;
+}
+#ourservices .card{
+    box-shadow: 0px 3px 28px -1px rgba(0,0,0,0.62);
+}
